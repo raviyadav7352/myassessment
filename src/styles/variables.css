@@ -37,7 +37,7 @@
 .color-failed{color: var(--color-failed);}
 .color-theme{color: var(--color-theme);}
 .color-active{color: var(--color-active);}
-.color-success{color: var(--color-success;}
+.color-success{color: var(--color-success);}
 .bg-white{background-color: var(--bg-white);}
 .bg-main{background-color: var(--main-bg);}
 .bg-disable{background-color: var(--color-disable);}
