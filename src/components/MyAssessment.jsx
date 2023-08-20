@@ -71,6 +71,7 @@ const MyAssessment = ({ assessmentData, onEdit, onDelete }) => {
                             >{user.user}</div>
                         ))}
                     </div>
+                    {assessmentData.userCount  && <p className="fs12 fW-bold color-theme">+{assessmentData.userCount}</p>}
                 </div>
             </div>
         </div>
