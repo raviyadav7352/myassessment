@@ -69,6 +69,7 @@ const CreateNewAssessment = ({ isOpen, onClose, onAssessmentData }) => {
             duration,
             selectedSkills,
             date: formattedDate,
+             userCount:'',
             users:[{user:'RK'}]
         });
 
