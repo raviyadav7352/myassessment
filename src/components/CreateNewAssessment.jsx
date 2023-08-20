@@ -68,7 +68,8 @@ const CreateNewAssessment = ({ isOpen, onClose, onAssessmentData }) => {
             selectedDescription,
             duration,
             selectedSkills,
-            date: formattedDate
+            date: formattedDate,
+            users:[{user:'RK'}]
         });
 
         // Close the modal
