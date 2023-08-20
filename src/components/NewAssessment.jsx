@@ -14,7 +14,7 @@ const NewAssessment = ({ assessmentTotal }) => {
             duration: '12:12',
             selectedSkills: ['html', 'css', 'javascript'],
             date: "20 Apr 2023",
-             userCount:'',
+             userCount:'45',
             users: [
                 { user: 'RK' },
                 { user: 'PK' },
@@ -27,7 +27,7 @@ const NewAssessment = ({ assessmentTotal }) => {
             duration: '10:12',
             selectedSkills: ['python', 'java', 'c++'],
             date: "19 May 2023",
-             userCount:'37',
+             userCount:'370',
             users: [
                 { user: 'RK' },
                 { user: 'PK' },
@@ -41,7 +41,7 @@ const NewAssessment = ({ assessmentTotal }) => {
             duration: '15:30',
             selectedSkills: ['english', 'communication'],
             date: "25 June 2023",
-             userCount:'',
+             userCount:'98',
             users: [
                 { user: 'RK' },
                 { user: 'FK' },
@@ -54,7 +54,7 @@ const NewAssessment = ({ assessmentTotal }) => {
             duration: '08:45',
             selectedSkills: ['design', 'creative', 'user experience'],
             date: "10 July 2023",
-             userCount:'673',
+             userCount:'',
             users: [
                 { user: 'RK' },
             ]
@@ -66,9 +66,11 @@ const NewAssessment = ({ assessmentTotal }) => {
             duration: '09:00',
             selectedSkills: ['biology', 'chemistry', 'physics'],
             date: "05 Aug 2023",
+            userCount:'56',
             users: [
-                { user: 'RK' },
-                { user: 'JK' },
+                { user: 'CA' },
+                { user: 'US' },
+                { user: 'UK' },
             ]
         },
     ]);
