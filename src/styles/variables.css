@@ -11,7 +11,7 @@
     --disable-bg:#ecdfdf;
     --color-failed: #e52929;
     --shadow-up:4px 0px 8px rgba(0, 0, 0, 0.1);
-
+    --shadow-outline:0px 0px 4px -1px rgba(0,0,0,0.5);
     --bg-btn:#0A4598;
     --color-border: #DDE5EA;
     --color-theme:#1C4980; 
