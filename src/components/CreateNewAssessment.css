@@ -2,7 +2,7 @@
     margin: auto;
     background-color: var(--bg-white);
     width: min(590px, 100%);
-    height: calc(100% - 40px);
+    max-height: calc(100% - 40px);
     display: flex;
     flex-direction: column;
 }
