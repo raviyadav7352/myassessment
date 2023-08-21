@@ -17,6 +17,7 @@
 
 .u-form-control.u-textarea {
     height: 70px;
+    background-color: var(--bg-white);
     line-height: 22px;
 }
 
