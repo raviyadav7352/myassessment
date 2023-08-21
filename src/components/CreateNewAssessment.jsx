@@ -87,9 +87,20 @@ const CreateNewAssessment = ({ isOpen, onClose, onAssessmentData }) => {
     const handleSkillRemove = (skillToRemove) => {
         setSelectedSkills(prevSkills => prevSkills.filter(skill => skill !== skillToRemove));
     };
+    // handle outside click event
+    useEffect(() => {
+        const handleClickOutside = (event) => {
+            if (event.target.className == 'u-modal-wrapper')  onClose();
+        };
+        if (isOpen) window.addEventListener("click", handleClickOutside);
+        
+        return () =>  window.removeEventListener("click", handleClickOutside);
+    
+    }, [isOpen]);
 
     return (
-        <div className={`pos-fixed u-modal-backdrop w-100 h-100 ${!isOpen ? "dN" : ''}`}>
+        <>
+            {isOpen && <div className="pos-fixed u-modal-backdrop w-100 h-100">
             <div className="u-modal-wrapper">
                 <div className="create-new-modal-body border1 borderR12">
                     <div className="flexC justifySB p30 border-bottom create-modal-header">
@@ -160,6 +171,7 @@ const CreateNewAssessment = ({ isOpen, onClose, onAssessmentData }) => {
                 </div>
             </div>
         </div>
+        </>
     );
 };
 
