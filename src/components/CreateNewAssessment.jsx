@@ -99,7 +99,7 @@ const CreateNewAssessment = ({ isOpen, onClose, onAssessmentData }) => {
     }, [isOpen]);
 
     return (
-        <>
+        <div>
             {isOpen && <div className="pos-fixed u-modal-backdrop w-100 h-100">
             <div className="u-modal-wrapper">
                 <div className="create-new-modal-body border1 borderR12">
@@ -171,7 +171,7 @@ const CreateNewAssessment = ({ isOpen, onClose, onAssessmentData }) => {
                 </div>
             </div>
         </div>
-        </>
+    </div>
     );
 };
 
