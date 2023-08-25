@@ -95,7 +95,7 @@
         left: -100%;
         width: 315px;
         transition: all .4s ease-out;
-        z-index: 2;
+        z-index: 32;
         padding: 40px 20px;
         height: 100%;
     }
